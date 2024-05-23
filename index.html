@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./assets/style/style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">
+                <img src="assets/casa.png">
+                Home
+            </a>
+            <a class="cabecalho__menu__link" href="about.html">
+                <img src="assets/pc.png">
+                Habilidades
+            </a>
+            <a class="cabecalho__menu__link" href="file.html">
+                <img src="assets/coração.png">
+                Projetos
+            </a>
+
+
+            <div class="mobile__menu__icon">
+                <button onclick="menuShow()">
+                    <img class="icon" src="assets/iconsmenu2.png" alt="">
+                </button>
+            </div>
+        </nav>
+
+        <div class="menu__mobile">
+            <a class="cabecalho__menu__link" href="index.html">
+                Home
+            </a>
+            <a class="cabecalho__menu__link" href="about.html">
+                Habilidades
+            </a>
+            <a class="cabecalho__menu__link" href="file.html">
+                Projetos
+            </a>
+        </div>
+
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__nome">Francisco <strong class="nome-index-destaque" id="nome-index"></strong></h1>
+            <p class="apresentacao__conteudo__texto">Olá! Sou Francisco, especialista em JavaScript e Node.js. Crio soluções inovadoras e adoro superar desafios de programação.</p>         
+            <div class="apresentacao__links">
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+                <a class="apresentacao__links__navegacao" href="https://github.com/franciscosousz">
+                    <img src="./assets/Frame.png">
+                    GitHub
+                </a>
+                <a class="apresentacao__links__navegacao" href="https://www.linkedin.com/in/franciscosousz/">
+                    <img src="./assets/Frame2.png">
+                    Linkedin
+                </a>
+            </div>
+        </section>
+        <img class="img__index" src="./assets/Design sem nome (1).jpg" alt="imagem">
+    </main>
+    <footer class="footer__index">
+        <img class="imagem__rodape" src="./assets/Logo_Alura_Include_(1) (1).svg">
+        <p class="ropade__texto">Desenvolvido por Francisco.</p>
+    </footer>
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
